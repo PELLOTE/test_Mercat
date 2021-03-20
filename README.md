@@ -5,6 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
+you can see the API Documntacion in the route  http://localhost:3000/apipie.
+
 * Ruby version
 
 * System dependencies
