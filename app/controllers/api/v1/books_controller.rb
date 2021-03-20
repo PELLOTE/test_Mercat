@@ -3,8 +3,7 @@ module Api
     class BooksController < ApplicationController
       before_action :set_book, only: %i[show update destroy]
       before_action :set_books, only: %i[index]
-
-     # GET index - documentation
+      # GET index - documentation
       api :GET, '/api/v1/books', 'List all books'
       # GET index - end of documentation
       def index
